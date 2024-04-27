@@ -1,0 +1,191 @@
+## Example Config file
+BaseURL: "https://www.mkitterman.website"
+theme: "terminalcv"
+title: "WebCV for McKauley Kitterman - Hugo Theme by 4s3ti"
+
+params:
+ description: "4s3ti cv terminal format"
+ prompt: "newuser@terminalcv"
+ promptColor: green
+ promptSimbols: ":~$"
+ promptSimbolsColor: grey
+ startxLocation: https://goldenblogathon.com
+# hideSocialName: true
+ exitLocation: 'about:home'
+ hidesource: true
+ greeting: |
+    Welcome to my online resume and curriculum vitae
+    
+
+
+    Type 'help' for a list of available commands
+
+
+ whois:
+   name: "McKauley Kitterman"
+   profession: "Driver"
+   location: "Wichita, KS, USA"
+   email: "mckauleykitterman@gmail.com"
+   homelink: ""
+   description: |
+              I am a life-long learner and extremely apt go-getter.
+              When a task needs doing, teach me and I will do my very best to get it done.
+ misc:
+   commandName: g2km
+   title: "Get to Know Me"
+   titleColor: gold
+   content: |
+             ----------
+              Awards 
+             ----------
+              STAR Award - Jan 2022 - Going above and beyond for shipping department
+              STAR Award - Jan 2023 - Above and beyond for critical component delivery
+
+             ----------------------
+              Professional Summary 
+             ----------------------
+              I am a passionate, motivated, and driven individual who strives to learn what it takes to get the job done. 
+              As a delivery driver, I have learned a modicum of self-discipline and organization skills that help me remain successful and timely in my day-to-day work. 
+              At home, I maintain a functional home lab so that I can continue to learn for myself and others so that I can teach them about data sovereignty and self-reliance in an era that wants us to sell our data without our consent.
+            
+             -----------------------
+              Interests and Hobbies 
+             -----------------------
+              * At home, I run a homelab that includes Nextcloud, Castopod, uses Caddy for reverse proxying, and Docker Compose networks
+              * Community leader and Mascot of the Jupiter Broadcast show Linux Unplugged
+              * Launched and maintain the infrastructure for Teaching Dragon Podcast and Morning Meanderings
+              * Passionate about Open Source and the underlying pinnings - both in Free as in Libre and Free as in Beer
+              * I co-own a small business with my wife, Kitterman Creative that does shirts, stickers, and the occasional 3D print as well as sublimation type goods
+              * Owner and maintainer of four 3D printers
+
+             --------------
+              Knowledge in 
+             --------------
+             Hugo      Marlin
+             Markdown  
+             Discord
+             Matrix
+             
+   contentColor: orange
+
+
+ social:
+    ## IF you want to keep them aligned just add spaces
+   - name: "github"
+     url: "                            https://github.com/DFireTech"
+   - name: "podcast network"
+     url: "                   https://podnet.teachingdragon.online"
+  # - name: "myspace"
+  # - name: "hi5"
+  #   url: "             https://www.hi5.com"
+  # - name: "instagram"
+  #   url: "       https://instagram.com"
+   - name: "My Blog - The Golden Blog-a-Thon"
+     url: "  https://goldenblogathon.com"
+
+ work:
+   - jobTitle: Driver
+     color: red
+     company: 'Atlas Aerospace - PMC Branch'
+     location: Wichita, KS, USA
+     date: August 2021 - Present
+     description: I drive the aircraft components and pieces from one or both of our branches in Wichita to processing/manufacturing plants or from plant to plant
+
+   - jobTitle: Driver
+     color: purple
+     company: 'FedEx Ground - L10 Contracted Driver with GMAC Express'
+     location: Bel Aire, KS, USA
+     date: November 2020  - August 2021
+     description: Drove the packages with a quickness to their destination - buisiness or home
+
+   - jobTitle: Driver / Supply Chain Clerk
+     company: 'Four State Industrial Supply'
+     location: Wichita, KS, USA
+     date: December 2018 - November 2020
+     description: Drove critical components to manufacturing plants as well as maintained inventory in the shop
+
+ education:
+  - courseName: ITT Technical Institute Wichita
+    color: blue
+    date: September 2010 - May 2013
+    description: Graduated with an Associates of Applied Science in Network Systems Administration.
+
+  # - courseName: Default color training
+  #   date: Sept 2004 - Jun 2008
+     #description: There is no need for description
+
+ skills:
+   - name: Troubleshooting
+     color: red
+     percentage: 80
+     description: I can usually get to the root of a problem to begin solving said problem.
+
+   - name: Computer Compentency
+     percentage: 100
+     description: I have been through the gamut of computers and operating systems. I currently use macOS and Linux daily to perform any tasks I am given.
+
+   - name: Communication
+     color: blue
+     percentage: 50
+     description: While I am a decent communicator, I can definitely improve in effective communication skills.
+
+ softskills:
+   - name: Adaptability and Flexibility
+     color: red
+     percentage: 80
+     description: If change remains the only constant, I'm ready for it.
+
+   - name:  Creativity
+     #color:
+     percentage: 90
+     description: In my day to day, I 3d print and play music.
+
+   - name: Teamwork
+     percentage: 75
+     description: This is an essential part of making the dream happen. I just happen to make friends pretty easy and get along with everyone just as easy.
+
+   - name: Organization
+     percentage: 45
+     description: I think better in partial chaos. Until the void stares back at me.
+
+   - name: Learning
+     percentage: 80
+     description: When something new arises, I tend to be able to learn it at a decent pace. 
+
+ languages:
+   - name: English
+     color: Blue
+     percentage: 100
+     description: This is my only language currently.
+
+   - name: Gr33k
+     percentage: 50
+     description: My family tells me I speek Greek all the time. Maybe they mean "Geek"....
+
+
+ projects:
+   - title: The Golden Blog-a-Thon
+     color: gold
+     date: since 2022
+     link: https://goldenblogathon.com
+     description: I started a blog, hoping to journal my efforts in moving out of being a driver and into open source and software. Hopefully that pans out soon!
+
+   - title: Teaching Dragon Podcast
+     color: blue
+     date: since 2024
+     link: https://podnet.teachingdragon.online
+     description: My co-host and I hope to teach each other and other people about topics that interest us
+
+  # - title: Project Default
+  #   date: Since 2017
+  #   link: https://example.com/default
+     #description: not there either
+
+# certifications:
+# - certName: Example Cert
+#   company: Example Certifying Company
+#   date: Date of Completion
+   #description: Lorem Ipsum
+
+   
+
